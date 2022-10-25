@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="email" placeholder="Company Email" id="CE" onkeyup="email()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+    <input type="email" placeholder="Company Email" id="CE" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
     <label id="passReqs" name="account"><em>*Your password must be at least 8 character long, have one upercase letter, lowercase letter, a number, and a special symbol.</em></label>
-    <input type="password" placeholder="Company password" id="CP" onkeyup="pass()" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+    <input type="password" placeholder="Company password" id="CP" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
     <input type="submit" onclick="check()">
-    <script src="login.js"></script>
+    <script src="../../scripts/login.js"></script>
 </body>
 </html>
