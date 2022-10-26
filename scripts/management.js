@@ -2,6 +2,8 @@ let employees = [];
 
 let div = document.getElementById("space");
 
+let x = 0;
+
 function add(){
     while(div.firstChild){
         div.removeChild(div.firstChild);
@@ -22,7 +24,7 @@ function add(){
     // creates an input element(name) and makes it a text input
     let name = document.createElement("input");
     name.type = "text";
-    name.id = "name";
+    name.id = `name${x}`;
     div.appendChild(name);
 
     //creates submit element with function. The function takes name's value sets employee's fname to the value 
@@ -30,14 +32,20 @@ function add(){
     submit.type = "submit";
     div.appendChild(submit);
     submit.onclick = function name(){
-        let eName = document.getElementById("name").value.split(" ");
-        employee.fName = eName[0];
-        employee.lName = eName[1];
-        employee.age = eName[2];
-        employee.salery = eName[3] + " per hour";
+
+        // takes name's value and .splits it. employee's variables then are set to the valuse of the e list.
+        let e = document.getElementById(`name${x}`).value.split(" ");
+        employee.fName = e[0];
+        employee.lName = e[1];
+        employee.age = e[2];
+        employee.salery = e[3] + " per hour";
         employees.push(employee);
-        name.id = `name${x}`
-        console.log(employees);
+        console.log(`name${x}`);
+
+        x++;
+        name.id = `name${x}`;
+
+        console.log(`name${x}`);
     }
 }
 
