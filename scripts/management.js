@@ -1,3 +1,4 @@
+
 let employees = [];
 
 let div = document.getElementById("space");
@@ -67,12 +68,17 @@ function edit(){
     search.onkeyup = function filter(){
         let input = document.getElementById("search");
         let filter = input.value;
-        let p = document.getElementsByTagName("p");
+        let p = div.getElementsByTagName("p");
         for(let i = 0; i< employees.length; i++){
             let index = p[i].innerText;
-            if(index.indexOf(p) > -1){
-                
+            if(index.indexOf(filter) > -1){
+                p[i].style.display = "block";
+            }else{
+                p[i].style.display = "none";
             }
+            if (filter == 0){
+            p[i].style.display = "block";
+        }
         }
         
     }
