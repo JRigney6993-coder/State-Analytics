@@ -1,0 +1,25 @@
+{
+    "agent": [
+        {
+            "firstName": "jake",
+            "lastName": "Test",
+            "accessLevel": 2,
+            "email": "jakeTest@fbi.gov",
+            "token": "k-PpHV-UcDmAUxpeX6Gk6A",
+            "password": "nnfiesfuise3832",
+            "arrests": 0,
+            "intelligence": 2.8
+        },
+        {
+            "firstName": "jake",
+            "lastName": "Test",
+            "accessLevel": 2,
+            "email": "jakeTest@fbi.gov",
+            "token": "TUBan2puOrp_40GUQy77gg",
+            "password": "$2b$12$IU1koXQMcBaBRm5fxct09utlJDOi1y2HD1BhVyPE1s4WxN04oss3u",
+            "arrests": 0,
+            "intelligence": 2.21
+        }
+    ],
+    "agentNum": 2
+}
