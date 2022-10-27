@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+header {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input {
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.title {
+    text-align: center;
+    font-family: jost-regular;
+    font-size: 45px;
+}
+.mainContentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.emailInputContainer{
+    align-self: center;
+}
+.passwordInputContainer{
+    align-self: center;
+    text-align: center;
+}
+.passwordInputLabelContainer{
+    width: 430px;
+}
+.cp{
+    background-color: white;
+    background-image: url('../../images/emailInput.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.submitButton{
+    background-color: navy;
+    color: white;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: transparent;
+    width: 350px;
+    height: 40px;
+    font-size: 25px;
+    font-family: jost-medium;
+   vertical-align: middle;
+}
+@font-face {
+    font-family: jost-regular;
+    src: url(../../Fonts/Jost/static/Jost-Regular.ttf);
+}
+@font-face {
+    font-family: jost-medium;
+    src: url(../../Fonts/Jost/static/Jost-Medium.ttf);
+}
