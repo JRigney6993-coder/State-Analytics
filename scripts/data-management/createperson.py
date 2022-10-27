@@ -3,6 +3,7 @@ import requests
 import random
 import os
 import secrets
+from cryptography.fernet import Fernet
 
 def createPerson():
     """Creates a new civilian"""
@@ -32,6 +33,7 @@ def createAgent(firstName, lastName, password, accessLevel, token):
     try:
         if accessLevel >= 4: accessLevel = 3
         password = password.decode("utf-8")
+        token = Fernet(open("scripts/data-management/data/pass.key", "rb").read()).encrypt(token.encode()).decode("utf-8")
         person = {
             "firstName": firstName,
             "lastName": lastName,
