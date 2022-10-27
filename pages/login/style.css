@@ -45,7 +45,6 @@ input {
     background-image: url('../../images/emailInput.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    border-width: 0px;
 }
 .submitButton{
     background-color: navy;
@@ -57,7 +56,7 @@ input {
     height: 40px;
     font-size: 25px;
     font-family: jost-medium;
-    vertical-align: middle;
+   vertical-align: middle;
 }
 @font-face {
     font-family: jost-regular;
