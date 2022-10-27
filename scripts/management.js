@@ -22,30 +22,37 @@ function add(){
     div.appendChild(desc);
 
     // creates an input element(name) and makes it a text input
+    let form = document.createElement("form");
+    form.id = "formInput";
+    div.appendChild(form);
+
     let name = document.createElement("input");
     name.type = "text";
-    name.id = `name${x}`;
-    div.appendChild(name);
+    name.id = `${x}`;
+    form.appendChild(name);
 
+    let id = document.getElementById(`${x}`)
     //creates submit element with function. The function takes name's value sets employee's fname to the value 
     let submit = document.createElement("input");
     submit.type = "submit";
-    div.appendChild(submit);
-    submit.onclick = function name(){
-
+    form.appendChild(submit);
+    submit.onclick = function name(e){
+        e.preventDefault;
+        console.log(id);
         // takes name's value and .splits it. employee's variables then are set to the valuse of the e list.
-        let e = document.getElementById(`name${x}`).value.split(" ");
-        employee.fName = e[0];
-        employee.lName = e[1];
-        employee.age = e[2];
-        employee.salery = e[3] + " per hour";
+        let employ = id.value.split(" ");
+        employee.fName = employ[0];
+        employee.lName = employ[1];
+        employee.age = employ[2];
+        employee.salery = employ[3] + " per hour";
         employees.push(employee);
-        console.log(`name${x}`);
 
+        document.getElementById("formInput").reset();
         x++;
-        name.id = `name${x}`;
+        id.id =`${x}`;
 
-        console.log(`name${x}`);
+        console.log(employees);
+        add();
     }
 }
 
@@ -54,10 +61,31 @@ function edit(){
         div.removeChild(div.firstChild);
     }
 
+    let search = document.createElement("input");
+    search.type = "text";
+    search.id = "search";
+    search.onkeyup = function filter(){
+        let input = document.getElementById("search");
+        let filter = input.value;
+        let p = document.getElementsByTagName("p");
+        for(let i = 0; i< employees.length; i++){
+            let index = p[i].innerText;
+            if(index.indexOf(p) > -1){
+                
+            }
+        }
+        
+    }
+    div.appendChild(search);
+
     for(let i=0; i<employees.length; i++){
         let list = document.createElement("p");
         let text = document.createTextNode(employees[i].fName);
+        let text2 = document.createTextNode(employees[i].lName);
+        let text3 = document.createTextNode(" ");
         list.appendChild(text);
+        list.appendChild(text3);
+        list.appendChild(text2);
         div.appendChild(list);
     }
 }
