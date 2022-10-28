@@ -278,6 +278,11 @@ let Wyoming = {
 function compare(){
     let orign = document.getElementById('yourState');
     let want = document.getElementById('wantedState');
-    let o = orign.value.split(", ");
-    let w = want.value.split(", ");
+    let comp = document.getElementById('comparator');
+    let o = orign.value.toLowerCase();
+    let w = want.value.toLowerCase();
+    let x = comp.value.toLowerCase();
+    document.getElementById('text').innerHTML = `${o}'s taxes are ${o.x}. ${w}'s taxes are ${w.x}`;
+    console.log(o);
+    console.log(w);
 }
