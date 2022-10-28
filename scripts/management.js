@@ -9,11 +9,13 @@ function add(){
     while(div.firstChild){
         div.removeChild(div.firstChild);
     }
-    let employee = {
-        fName: "",
-        lName: "",
-        age: "",
-        salery: ""
+    let state = {
+        tax: "",
+        minimumWage: "",
+        carInsur: "",
+        homeInsur: "",
+        healthInsur: "",
+        homeCost: "",
     }
 
     //creates p tag and text, then adds it to the div element
