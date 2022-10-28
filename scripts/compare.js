@@ -282,7 +282,45 @@ function compare(){
     let o = orign.value.toLowerCase();
     let w = want.value.toLowerCase();
     let x = comp.value.toLowerCase();
-    document.getElementById('text').innerHTML = `${o}'s taxes are ${o.x}. ${w}'s taxes are ${w.x}`;
-    console.log(o);
-    console.log(w);
+    let y;
+    let z;
+    let sign;
+    if(x == 'tax rate'){
+        sign = '%'
+        y = eval(o).taxRate;
+        z = eval(w).taxRate;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are ${y}%. ${w}'s ${x} are ${z}%`;
+    }else if(x == 'minimum wage'){
+        y = eval(o).minWage;
+        z = eval(w).minWage;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y} per hour. ${w}'s ${x} are $${z} per hour`;
+    }else if(x == 'monthly car insurance'){
+        y = eval(o).carInM;
+        z = eval(w).carInM;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
+    }else if(x == 'annual car insurance'){
+        y = eval(o).carInY;
+        z = eval(w).carInY;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
+    }else if(x == 'monthly house insurance'){
+        y = eval(o).homeInM;
+        z = eval(w).homeInM;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
+    }else if(x == 'annual house insurance'){
+        y = eval(o).homeInY;
+        z = eval(w).homeInY;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
+    }else if(x == 'monthly health insurance'){
+        y = eval(o).healthInM;
+        z = eval(w).healthInM;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
+    }else if(x == 'annual health insurance'){
+        y = eval(o).healthInY;
+        z = w.healthInY;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
+    }else if(x == 'average house cost'){
+        y = eval(o).homeCost;
+        z = eval(w).homeCost;
+        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
+    }
 }
