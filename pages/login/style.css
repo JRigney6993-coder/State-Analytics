@@ -4,17 +4,48 @@
     
 }
 body{
-    background-color: white;
+    background-color: whitesmoke;
+    
 }
 header {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
-    background-color: rgb(0, 0, 91);
+    background-color: rgb(0, 0, 120);
     color: white;
     
 }
-input {
+.title {
+    text-align: center;
+    font-family: jost-regular;
+    font-size: 50px;
+}
+.subTitle{
+    font-size: 25px;
+    margin-top: -10px;
+}
+.headerLinksContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 23px;
+    margin-top: -5px;
+    text-decoration: none;
+    background-color: #23abff;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 23);
+    font-family: jost-semiBold;
+}
+a:hover{
+    text-decoration: underline;
+}
+#underlineLink{
+    text-decoration: underline;
+}
+/* input {
     height: 40px;
     width: 400px;
     font-size: 20px;
@@ -38,31 +69,8 @@ input[type=password]:focus {
     border-right-style: hidden;
     border-left-style: hidden;
     outline: none;
-}
-.title {
-    text-align: center;
-    font-family: jost-regular;
-    font-size: 50px;
-}
-.subTitle{
-    font-size: 25px;
-    margin-top: -10px;
-}
-.headerLinksContainer{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    font-size: 25px;
-    margin-top: 10px;
-    text-decoration: none;
-    background-color: white;
-}
-a{
-    text-decoration: none;
-    color: black;
-    font-family: jost-light;
-}
-.mainContentContainer{
+} */
+/* .mainContentContainer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +123,7 @@ a{
 .submitButton:active{
     transform: translateY(4px);
     box-shadow: 0 1px #666;
-}
+} */
 @font-face {
     font-family: jost-regular;
     src: url(../../Fonts/Jost/static/Jost-Regular.ttf);
