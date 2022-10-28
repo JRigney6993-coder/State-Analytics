@@ -62,6 +62,32 @@ function edit(){
         div.removeChild(div.firstChild);
     }
 
+    let list, text, text2, text3, text4, text5, text6, text7, text8, text9;    
+    function print(){
+        for(let i=0; i<employees.length; i++){
+                list = document.createElement("p");
+                text = document.createTextNode(employees[i].fName);
+                text2 = document.createTextNode(" ");
+                text3 = document.createTextNode(employees[i].lName);
+                text4 = document.createTextNode(" ");
+                text5 = document.createTextNode(employees[i].age);
+                text6 = document.createTextNode(" ");
+                text7 = document.createTextNode(employees[i].salery);
+                text8 = document.createTextNode(" ");
+                text9 = document.createTextNode(i);
+                list.appendChild(text);
+                list.appendChild(text2);
+                list.appendChild(text3);
+                list.appendChild(text4);
+                list.appendChild(text5);
+                list.appendChild(text6);
+                list.appendChild(text7);
+                list.appendChild(text8);
+                list.appendChild(text9);
+                div.appendChild(list);
+        }
+    }
+
     let search = document.createElement("input");
     search.type = "text";
     search.id = "search";
@@ -91,36 +117,25 @@ function edit(){
     select.placeholder = "Edit employee";
     div.appendChild(select);
 
-    let edit = document.createElement("input");
-    edit.type = "submit";
-    edit.id = "edit";
-    edit.onclick = function select(){
+    let change = document.createElement("input");
+    change.type = "submit";
+    change.id = "edit";
+    change.onclick = function select(){
         let input = document.getElementById("select");
         let info = input.value.split(" ");
-        if(info[0] == 'first'){
-            info[1] = employees.fName;
-        }else if(edit[0] == "last"){
-            info[1] = employees.lName;
-        }else if(edit[0] == "age"){
-            info[1] = employees.age;
-        }else if(edit[0] == "salery"){
-            info[1] = employees.salery;
+        let index = info[0]
+        if(info[1] == 'first'){
+            employees[index].fName = info[2];
+        }else if(info[1] == "last"){
+            employees[index].lName = info[2];
+        }else if(info[1] == "age"){
+            employees[index].age = info[2];
+        }else if(info[1] == "salery"){
+            employees[index].salery = info[2];
         }
-        console.log(employees);
+        edit();
     }
-    div.appendChild(edit);
-
-    for(let i=0; i<employees.length; i++){
-        let list = document.createElement("p");
-        let text = document.createTextNode(employees[i].fName);
-        let text2 = document.createTextNode(employees[i].lName);
-        let text3 = document.createTextNode(" ");
-        let text4 = document.createTextNode(employees[i]);
-        list.appendChild(text);
-        list.appendChild(text3);
-        list.appendChild(text2);
-        list.appendChild(text3);
-        list.appendChild(text4);
-        div.appendChild(list);
-    }
+    div.appendChild(change);
+    
+    print();
 }
