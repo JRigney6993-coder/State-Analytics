@@ -142,4 +142,9 @@ let Wyoming = {
     homeCost:292509
 }
 
-
+function compare(){
+    let orign = document.getElementById('yourState');
+    let want = document.getElementById('wantedState');
+    let o = orign.value.split(", ");
+    let w = want.value.split(", ");
+}
