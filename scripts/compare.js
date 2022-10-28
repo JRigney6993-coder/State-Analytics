@@ -1,4 +1,4 @@
-let Alabama = {
+let alabama = {
     taxRate: 9.24,
     minWage: 7.25,
     carInM: 113,
@@ -9,7 +9,7 @@ let Alabama = {
     healthInY: 6804,
     homeCost: 178649
 }
-let Alaska = {
+let alaska = {
     taxRate: 1.76,
     minWage: 10.34,
     carInM: 119,
@@ -20,7 +20,7 @@ let Alaska = {
     healthInY: 7188,
     homeCost: 385000
 }
-let Arizona = {
+let arizona = {
     taxRate: 8.40,
     minWage: 12.80,
     carInM: 145,
@@ -31,7 +31,7 @@ let Arizona = {
     healthInY: 6036,
     homeCost: 392000
 }
-let Arkansas = {
+let arkansas = {
     taxRate: 9.47,
     minWage: 11.00,
     carInM: 99,
@@ -42,7 +42,7 @@ let Arkansas = {
     healthInY: 5472,
     homeCost: 299900
 }
-let California = {
+let california = {
     taxRate: 8.82,
     minWage: 14.00,
     carInM: 119,
@@ -53,7 +53,7 @@ let California = {
     healthInY: 5004,
     homeCost: 769405
 }
-let Colorado = {
+let colorado = {
     taxRate: 7.77,
     minWage: 12.56,
     carInM: 204,
@@ -64,7 +64,7 @@ let Colorado = {
     healthInY: 4596,
     homeCost: 594500
 }
-let Connecticut = {
+let connecticut = {
     taxRate: 6.35,
     minWage: 14.00,
     carInM: 154,
@@ -75,7 +75,7 @@ let Connecticut = {
     healthInY: 6408,
     homeCost: 326124
 }
-let Delaware = {
+let delaware = {
     taxRate: 6.60,
     minWage: 10.50,
     carInM: 192,
@@ -86,7 +86,7 @@ let Delaware = {
     healthInY: 6660,
     homeCost: 317985
 }
-let Florida = {
+let florida = {
     taxRate: 7.01,
     minWage: 11.00,
     carInM: 230,
@@ -97,7 +97,7 @@ let Florida = {
     healthInY: 5604,
     homeCost: 382000
 }
-let Georgia = {
+let georgia = {
     taxRate: 7.35,
     minWage: 7.25,
     carInM: 191,
@@ -108,7 +108,7 @@ let Georgia = {
     healthInY: 4728,
     homeCost: 256962
 }
-let Hawaii = {
+let hawaii = {
     taxRate: 4.44,
     minWage: 12.00,
     carInM: 120,
@@ -119,7 +119,7 @@ let Hawaii = {
     healthInY: 5892,
     homeCost: 825000
 }
-let Idaho = {
+let idaho = {
     taxRate: 6.02,
     minWage: 7.25,
     carInM: 87,
@@ -131,7 +131,7 @@ let Idaho = {
     homeCost: 446000
 }
 
-let Pennsylvania = {
+let pennsylvania = {
     taxRate: 3.07,
     minWage: 7.25,
     carInM: 51,
@@ -142,7 +142,7 @@ let Pennsylvania = {
     healthInY: 5292,
     homeCost: 206575
 }
-let RhodeIsland = {
+let rhodeisland = {
     taxRate:4.87,
     minWage:12.25,
     carInM:153,
@@ -153,7 +153,7 @@ let RhodeIsland = {
     healthInY:3432,
     homeCost:422000
 }
-let SouthCarolina = {
+let southcarolina = {
     taxRate:6,
     minWage:7.25,
     carInM:86.25,
@@ -164,7 +164,7 @@ let SouthCarolina = {
     healthInY:4068,
     homeCost:370000
 }
-let SouthDakota = {
+let southdakota = {
     taxRate:4.5,
     minWage:9.95,
     carInM:127.91,
@@ -175,7 +175,7 @@ let SouthDakota = {
     healthInY:8052,
     homeCost:239500
 }
-let Tennessee = {
+let tennessee = {
     taxRate:7,
     minWage:7.25,
     carInM:71.25,
@@ -186,7 +186,7 @@ let Tennessee = {
     healthInY:6096,
     homeCost:419000
 }
-let Texas = {
+let texas = {
     taxRate:8.20,
     minWage:7.25,
     carInM:110,
@@ -197,7 +197,7 @@ let Texas = {
     healthInY:5088,
     homeCost:390600
 }
-let Utah = {
+let utah = {
     taxRate:4.85,
     minWage:7.25,
     carInM:120,
@@ -208,7 +208,7 @@ let Utah = {
     healthInY:5340,
     homeCost:500000
 }
-let Vermont = {
+let vermont = {
     taxRate:6.24,
     minWage:12.55,
     carInM:95.42,
@@ -219,7 +219,7 @@ let Vermont = {
     healthInY:8046,
     homeCost:295000
 }
-let Virginia = {
+let virginia = {
     taxRate:5.3,
     minWage:11.00,
     carInM:184,
@@ -230,7 +230,7 @@ let Virginia = {
     healthInY:5292,
     homeCost:401082
 }
-let Wahsington = {
+let washington = {
     taxRate:9.29,
     minWage:14.49,
     carInM:68.29,
@@ -241,7 +241,7 @@ let Wahsington = {
     healthInY:5316,
     homeCost:599626
 }
-let WestVirginia = {
+let westvirginia = {
     taxRate:6,
     minWage:8.75,
     carInM:81.54,
@@ -252,7 +252,7 @@ let WestVirginia = {
     healthInY:8676,
     homeCost:310000
 }
-let Wisconsin = {
+let wisconsin = {
     taxRate:5.5,
     minWage:7.25,
     carInM:80,
@@ -263,7 +263,7 @@ let Wisconsin = {
     healthInY:9864,
     homeCost:250000
 }
-let Wyoming = {
+let wyoming = {
     taxRate:4,
     minWage:7.25,
     carInM:128.42,
