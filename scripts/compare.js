@@ -130,7 +130,6 @@ let idaho = {
     healthInY: 6144,
     homeCost: 446000
 }
-
 let pennsylvania = {
     taxRate: 3.07,
     minWage: 7.25,
@@ -274,17 +273,319 @@ let wyoming = {
     healthInY:7416,
     homeCost:292509
 }
+let orign = document.getElementById('yourState');
+let want = document.getElementById('wantedState');
+let comp = document.getElementById('comparator');
+let y;
+let z;
+let sign;
+
+function AL(){
+    orign.value = 'Alabama';
+}
+function AK(){
+    orign.value = 'Alaska';
+}
+function AZ(){
+    orign.value = 'Arizona';
+}
+function AR(){
+    orign.value = 'Arkansas';
+}
+function CA(){
+    orign.value = 'California';
+}
+function CO(){
+    orign.value = 'Colorado';
+}
+function CT(){
+    orign.value = 'Connecticut';
+}
+function DE(){
+    orign.value = 'Delaware';
+}
+function FL(){
+    orign.value = 'Florida';
+}
+function GA(){
+    orign.value = 'Georgia';
+}
+function HI(){
+    orign.value = 'Hawaii';
+}
+function ID(){
+    orign.value = 'Idaho';
+}
+function IL(){
+    orign.value = 'Illinois';
+}
+function IN(){
+    orign.value = 'Indiana';
+}
+function IA(){
+    orign.value = 'Iowa';
+}
+function KS(){
+    orign.value = 'Kansas';
+}
+function KY(){
+    orign.value = 'Kentuky';
+}
+function LA(){
+    orign.value = 'Louisiana';
+}
+function ME(){
+    orign.value = 'Maine';
+}
+function MD(){
+    orign.value = 'Maryland';
+}
+function MA(){
+    orign.value = 'Massachusetts';
+}
+function MI(){
+    orign.value = 'Michigan';
+}
+function MN(){
+    orign.value = 'Minnesota';
+}
+function MS(){
+    orign.value = 'Mississippi';
+}
+function MO(){
+    orign.value = 'Missouri';
+}
+function MT(){
+    orign.value = 'Montana';
+}
+function NE(){
+    orign.value = 'Nebraska';
+}
+function NV(){
+    orign.value = 'Nevada';
+}
+function NH(){
+    orign.value = 'New Hampshire';
+}
+function NJ(){
+    orign.value = 'New Jersey';
+}
+function NM(){
+    orign.value = 'New Mexico';
+}
+function NY(){
+    orign.value = 'New York';
+}
+function NC(){
+    orign.value = 'North Carolina';
+}
+function ND(){
+    orign.value = 'North Dakota';
+}
+function OH(){
+    orign.value = 'Ohio';
+}
+function OK(){
+    orign.value = 'Oklahoma';
+}
+function OR(){
+    orign.value = 'Oregon';
+}
+function PA(){
+    orign.value = 'Pennsylvania';
+}
+function RI(){
+    orign.value = 'Rhode Island';
+}
+function SC(){
+    orign.value = 'South Carolina';
+}
+function SD(){
+    orign.value = 'South Dakota';
+}
+function TN(){
+    orign.value = 'Tennessee';
+}
+function TX(){
+    orign.value = 'Texas';
+}
+function UT(){
+    orign.value = 'Utah';
+}
+function VT(){
+    orign.value = 'Vermont';
+}
+function VA(){
+    orign.value = 'Virginia';
+}
+function WA(){
+    orign.value = 'Virginia';
+}
+function WV(){
+    orign.value = 'West Virgina';
+}
+function WI(){
+    orign.value = 'Wisconsin';
+}
+function WY(){
+    orign.value = 'Wyoming';
+}
+
+function AL2(){
+    origin.value = 'Alabama';
+}
+function AK2(){
+    want.value = 'Alaska';
+}
+function AZ2(){
+    want.value = 'Arizona';
+}
+function AR2(){
+    want.value = 'Arkansas';
+}
+function CA2(){
+    want.value = 'California';
+}
+function CO2(){
+    want.value = 'Colorado';
+}
+function CT2(){
+    want.value = 'Connecticut';
+}
+function DE2(){
+    want.value = 'Delaware';
+}
+function FL2(){
+    want.value = 'Florida';
+}
+function GA2(){
+    want.value = 'Georgia';
+}
+function HI2(){
+    want.value = 'Hawaii';
+}
+function ID2(){
+    want.value = 'Idaho';
+}
+function IL2(){
+    want.value = 'Illinois';
+}
+function IN2(){
+    want.value = 'Indiana';
+}
+function IA2(){
+    want.value = 'Iowa';
+}
+function KS2(){
+    want.value = 'Kansas';
+}
+function KY2(){
+    want.value = 'Kentuky';
+}
+function LA2(){
+    want.value = 'Louisiana';
+}
+function ME2(){
+    want.value = 'Maine';
+}
+function MD2(){
+    want.value = 'Maryland';
+}
+function MA2(){
+    want.value = 'Massachusetts';
+}
+function MI2(){
+    want.value = 'Michigan';
+}
+function MN2(){
+    want.value = 'Minnesota';
+}
+function MS2(){
+    want.value = 'Mississippi';
+}
+function MO2(){
+    want.value = 'Missouri';
+}
+function MT2(){
+    want.value = 'Montana';
+}
+function NE2(){
+    want.value = 'Nebraska';
+}
+function NV2(){
+    want.value = 'Nevada';
+}
+function NH2(){
+    want.value = 'New Hampshire';
+}
+function NJ2(){
+    want.value = 'New Jersey';
+}
+function NM2(){
+    want.value = 'New Mexico';
+}
+function NY2(){
+    want.value = 'New York';
+}
+function NC2(){
+    want.value = 'North Carolina';
+}
+function ND2(){
+    want.value = 'North Dakota';
+}
+function OH2(){
+    want.value = 'Ohio';
+}
+function OK2(){
+    want.value = 'Oklahoma';
+}
+function OR2(){
+    want.value = 'Oregon';
+}
+function PA2(){
+    want.value = 'Pennsylvania';
+}
+function RI2(){
+    want.value = 'Rhode Island';
+}
+function SC2(){
+    want.value = 'South Carolina';
+}
+function SD2(){
+    want.value = 'South Dakota';
+}
+function TN2(){
+    want.value = 'Tennessee';
+}
+function TX2(){
+    want.value = 'Texas';
+}
+function UT2(){
+    want.value = 'Utah';
+}
+function VT2(){
+    want.value = 'Vermont';
+}
+function VA2(){
+    want.value = 'Virginia';
+}
+function WA2(){
+    want.value = 'Virginia';
+}
+function WV2(){
+    want.value = 'West Virgina';
+}
+function WI2(){
+    want.value = 'Wisconsin';
+}
+function WY2(){
+    want.value = 'Wyoming';
+}
 
 function compare(){
-    let orign = document.getElementById('yourState');
-    let want = document.getElementById('wantedState');
-    let comp = document.getElementById('comparator');
     let o = orign.value.toLowerCase();
     let w = want.value.toLowerCase();
     let x = comp.value.toLowerCase();
-    let y;
-    let z;
-    let sign;
     if(x == 'tax rate'){
         sign = '%'
         y = eval(o).taxRate;
@@ -324,72 +625,3 @@ function compare(){
         document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
     }
 }
-
-{/* <ul class="list">
-                <a href="javascript:AL();"><li>Alabama, AL</a ></li>
-                <a href="javascript:AK();"><li>Alaska, AK</a ></li>
-                <a href="javascript:AZ();"><li>Arizona, AZ</a ></li>
-                <a href="javascript:AR();"><li>Arkansas, AR</a ></li>
-                <a href="javascript:CA();"><li>California, CA</a ></li>
-                <a href="javascript:CO();"><li>Colorado, CO</a ></li>
-                <a href="javascript:CT();"><li>Connecticut, CT</a ></li>
-                <a href="javascript:DE();"><li>Delaware, DE</a ></li>
-                <a href="javascript:FL();"><li>Florida, FL</a ></li>
-                <a href="javascript:GA();"><li>Georgia, GA</a ></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="list">
-                <a href="javascript:HI();"><li>Hawaii, HI</a ></li>
-                <a href="javascript:ID();"><li>Idaho, ID</a ></li>
-                <a href="javascript:IL();"><li>Illinois, IL</a ></li>
-                <a href="javascript:IN();"><li>Indiana, IN</a ></li>
-                <a href="javascript:IA();"><li>Iowa, IA</a ></li>
-                <a href="javascript:KS();"><li>Kansas, KS</a ></li>
-                <a href="javascript:KY();"><li>Kentucky, KY</a ></li>
-                <a href="javascript:LA();"><li>Louisiana, LA</a ></li>
-                <a href="javascript:ME();"><li>Maine, ME</a ></li>
-                <a href="javascript:MD();"><li>Maryland, MD</a ></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="list">
-                <a href="javascript:MA();"><li>Massachusetts, MA</a ></li>
-                <a href="javascript:MI();"><li>Michigan, MI</a ></li>
-                <a href="javascript:MN();"><li>Minnesota, MN</a ></li>
-                <a href="javascript:MS();"><li>Mississippi, MS</a ></li>
-                <a href="javascript:MO();"><li>Missouri, MO</a ></li>
-                <a href="javascript:MT();"><li>Montana, MT</a ></li>
-                <a href="javascript:NE();"><li>Nebraska, NE</a ></li>
-                <a href="javascript:NV();"><li>Nevada, NV</a ></li>
-                <a href="javascript:NH();"><li>New Hampshire, NH</a ></li>
-                <a href="javascript:NJ();"><li>New Jersey, NJ</a ></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="list">
-                <a href="javascript:NM();"><li>New Mexico, NM</a ></li>
-                <a href="javascript:NY();"><li>New York, NY</a ></li>
-                <a href="javascript:NC();"><li>North Carolina, NC</a ></li>
-                <a href="javascript:ND();"><li>North Dakota, ND</a ></li>
-                <a href="javascript:OH();"><li>Ohio, OH</a ></li>
-                <a href="javascript:OK();"><li>Oklahoma, OK</a ></li>
-                <a href="javascript:OR();"><li>Oregon, OR</a ></li>
-                <a href="javascript:PA();"><li>Pennsylvania, PA</a ></li>
-                <a href="javascript:RI();"><li>Rhode Island, RI</a ></li>
-                <a href="javascript:SC();"><li>South Carolina, SC</a ></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="list">
-                <a href="javascript:SD();"><li>South Dakota, SD</a ></li>
-                <a href="javascript:TN();"><li>Tennessee, TN</a ></li>
-                <a href="javascript:TX();"><li>Texas, TX</a ></li>
-                <a href="javascript:UT();"><li>Utah, UT</a ></li>
-                <a href="javascript:VT();"><li>Vermont, VT</a ></li>
-                <a href="javascript:VA();"><li>Virginia, VA</a ></li>
-                <a href="javascript:WA();"><li>Washington, WA</a ></li>
-                <a href="javascript:WV();"><li>West Virginia, WV</a ></li>
-                <a href="javascript:SC();"><li>Wisconsin, WI</a ></li>
-                <a href="javascript:SC();"><li>Wyoming, WY</a ></li>
-            </ul> */}
