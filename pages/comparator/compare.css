@@ -4,3 +4,7 @@
 .list{
     list-style: none;
 }
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}
