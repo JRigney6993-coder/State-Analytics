@@ -275,16 +275,40 @@ let wyoming = {
     homeCost:292509
 }
 
+let y;
+let z;
+let sign;
+let orign = document.getElementById('yourState');
+let want = document.getElementById('wantedState');
+let comp = document.getElementById('comparator');
+
+function AL(){
+    orign.value = 'Alabama';
+}
+function AK(){
+    orign.value = 'Alaska';
+}
+function AZ(){
+    orign.value = 'Arizona';
+}
+function AR(){
+    orign.value = 'Arkansas'
+}
+function CA(){
+    orign.value = 'California'
+}
+function CO(){}
+function CT(){}
+function DE(){}
+function FL(){}
+function GA(){}
+
+
+
 function compare(){
-    let orign = document.getElementById('yourState');
-    let want = document.getElementById('wantedState');
-    let comp = document.getElementById('comparator');
     let o = orign.value.toLowerCase();
     let w = want.value.toLowerCase();
     let x = comp.value.toLowerCase();
-    let y;
-    let z;
-    let sign;
     if(x == 'tax rate'){
         sign = '%'
         y = eval(o).taxRate;
