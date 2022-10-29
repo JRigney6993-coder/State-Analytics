@@ -5,13 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="compare.css">
 </head>
 <body>
     <div id="main">
-        <input type="text" id="yourState"></input>
-        <input type="text" id="wantedState"></input>
+            <div>
+                <p>tax rate</p>
+                <p>minimum wage</p>
+                <p>monthly car insurance</p>
+                <p>annual car insurance</p>
+                <p>monthly house insurace</p>
+                <p>annual house insurance</p>
+                <p>monthly health insurance</p>
+                <p>annual health insurance</p>
+                <p>average house cost</p>
+                <hr>
+            </div>
+        <input type="text" id="yourState" placeholder="State 1"></input>
+        <input type="text" id="wantedState" placeholder="State 2"></input>
+        <input type="text" id="comparator" placeholder="What you want to compare"></input>
         <input type="submit" id="submit" onclick="compare()">
+        <br>
         <p id="text"></p>
     </div>
+    <script src="../../scripts/compare.js"></script>
 </body>
 </html>
