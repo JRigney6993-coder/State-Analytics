@@ -316,7 +316,7 @@ function compare(){
         document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
     }else if(x == 'annual health insurance'){
         y = eval(o).healthInY;
-        z = w.healthInY;
+        z = eval(w).healthInY;
         document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
     }else if(x == 'average house cost'){
         y = eval(o).homeCost;
@@ -324,3 +324,72 @@ function compare(){
         document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
     }
 }
+
+{/* <ul class="list">
+                <a href="javascript:AL();"><li>Alabama, AL</a ></li>
+                <a href="javascript:AK();"><li>Alaska, AK</a ></li>
+                <a href="javascript:AZ();"><li>Arizona, AZ</a ></li>
+                <a href="javascript:AR();"><li>Arkansas, AR</a ></li>
+                <a href="javascript:CA();"><li>California, CA</a ></li>
+                <a href="javascript:CO();"><li>Colorado, CO</a ></li>
+                <a href="javascript:CT();"><li>Connecticut, CT</a ></li>
+                <a href="javascript:DE();"><li>Delaware, DE</a ></li>
+                <a href="javascript:FL();"><li>Florida, FL</a ></li>
+                <a href="javascript:GA();"><li>Georgia, GA</a ></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="list">
+                <a href="javascript:HI();"><li>Hawaii, HI</a ></li>
+                <a href="javascript:ID();"><li>Idaho, ID</a ></li>
+                <a href="javascript:IL();"><li>Illinois, IL</a ></li>
+                <a href="javascript:IN();"><li>Indiana, IN</a ></li>
+                <a href="javascript:IA();"><li>Iowa, IA</a ></li>
+                <a href="javascript:KS();"><li>Kansas, KS</a ></li>
+                <a href="javascript:KY();"><li>Kentucky, KY</a ></li>
+                <a href="javascript:LA();"><li>Louisiana, LA</a ></li>
+                <a href="javascript:ME();"><li>Maine, ME</a ></li>
+                <a href="javascript:MD();"><li>Maryland, MD</a ></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="list">
+                <a href="javascript:MA();"><li>Massachusetts, MA</a ></li>
+                <a href="javascript:MI();"><li>Michigan, MI</a ></li>
+                <a href="javascript:MN();"><li>Minnesota, MN</a ></li>
+                <a href="javascript:MS();"><li>Mississippi, MS</a ></li>
+                <a href="javascript:MO();"><li>Missouri, MO</a ></li>
+                <a href="javascript:MT();"><li>Montana, MT</a ></li>
+                <a href="javascript:NE();"><li>Nebraska, NE</a ></li>
+                <a href="javascript:NV();"><li>Nevada, NV</a ></li>
+                <a href="javascript:NH();"><li>New Hampshire, NH</a ></li>
+                <a href="javascript:NJ();"><li>New Jersey, NJ</a ></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="list">
+                <a href="javascript:NM();"><li>New Mexico, NM</a ></li>
+                <a href="javascript:NY();"><li>New York, NY</a ></li>
+                <a href="javascript:NC();"><li>North Carolina, NC</a ></li>
+                <a href="javascript:ND();"><li>North Dakota, ND</a ></li>
+                <a href="javascript:OH();"><li>Ohio, OH</a ></li>
+                <a href="javascript:OK();"><li>Oklahoma, OK</a ></li>
+                <a href="javascript:OR();"><li>Oregon, OR</a ></li>
+                <a href="javascript:PA();"><li>Pennsylvania, PA</a ></li>
+                <a href="javascript:RI();"><li>Rhode Island, RI</a ></li>
+                <a href="javascript:SC();"><li>South Carolina, SC</a ></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="list">
+                <a href="javascript:SD();"><li>South Dakota, SD</a ></li>
+                <a href="javascript:TN();"><li>Tennessee, TN</a ></li>
+                <a href="javascript:TX();"><li>Texas, TX</a ></li>
+                <a href="javascript:UT();"><li>Utah, UT</a ></li>
+                <a href="javascript:VT();"><li>Vermont, VT</a ></li>
+                <a href="javascript:VA();"><li>Virginia, VA</a ></li>
+                <a href="javascript:WA();"><li>Washington, WA</a ></li>
+                <a href="javascript:WV();"><li>West Virginia, WV</a ></li>
+                <a href="javascript:SC();"><li>Wisconsin, WI</a ></li>
+                <a href="javascript:SC();"><li>Wyoming, WY</a ></li>
+            </ul> */}

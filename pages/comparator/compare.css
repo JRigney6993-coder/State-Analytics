@@ -1,0 +1,19 @@
+.states{
+    text-decoration: underline;
+}
+.list{
+    list-style: none;
+}
+.flexbox{
+    display:flex;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 2%;
+}
+.right {
+    padding-right: 2%;
+}
+p{
+    font-size:20px;
+}
