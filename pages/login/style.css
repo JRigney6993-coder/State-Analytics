@@ -51,15 +51,24 @@ header {
 .mainContentContainer p{
     font-size: 25px;
     font-family: rubik-light;
-    border-left-color: #23abff;
+    
     border-width: 0px;
     border-left-width: 5px;
     border-style: solid;
     padding-left: 15px;
 }
-
+.introductionParagraph{
+    border-left-color: #23abff;
+}
+.goalsParagraph{
+    border-left-color:rgb(255, 111, 0);
+}
 .orangeText{
     color: rgb(255, 111, 0);
+    font-weight: bold;
+}
+.blueText{
+    color: rgb(0, 119, 255);
     font-weight: bold;
 }
 a{
