@@ -9,11 +9,23 @@
     justify-content: space-between;
 }
 .left{
-    padding-left: 2%;
+    margin-left: 2%;
+    /* border: 1px solid black; */
 }
 .right {
-    padding-right: 2%;
+    margin-right: 2%;
+    /* border: 1px solid black; */
 }
 p{
     font-size:20px;
+}
+
+.flexmid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.comp{
+    align-self: flex-start;
 }

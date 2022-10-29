@@ -9,20 +9,9 @@
 </head>
 <body>
     <div id="main">
-        <div>
-            <p>tax rate</p>
-            <p>minimum wage</p>
-            <p>monthly car insurance</p>
-            <p>annual car insurance</p>
-            <p>monthly house insurace</p>
-            <p>annual house insurance</p>
-            <p>monthly health insurance</p>
-            <p>annual health insurance</p>
-            <p>average house cost</p>
-            <hr>
-        </div>
         <div class="flexbox">
             <div class="left">
+                <center>
                 <!-- <ul class="list"> -->
                     <p>
                         <h1 class="states">States</h1>
@@ -156,8 +145,35 @@
                         <p>Wyoming, WY</p>
                     </a>
                 <!-- </ul> -->
+            </center>
+            </div>
+            <div class="flexmid">
+                <div class="comp">
+                    <center>
+                        <h1>Comparators</h1>
+                        <p>tax rate</p>
+                        <p>minimum wage</p>
+                        <p>monthly car insurance</p>
+                        <p>annual car insurance</p>
+                        <p>monthly house insurace</p>
+                        <p>annual house insurance</p>
+                        <p>monthly health insurance</p>
+                        <p>annual health insurance</p>
+                        <p>average house cost</p>
+                        <br><br><br><br><br><br>
+                    </center>
+                </div>
+                <div>
+                    <input type="text" id="yourState" placeholder="State 1"></input>
+                    <input type="text" id="wantedState" placeholder="State 2"></input>
+                    <input type="text" id="comparator" placeholder="what you want to compare"></input>
+                    <input type="submit" id="submit" onclick="compare()">
+                    <br>
+                    <p id="text"></p>
+                </div>
             </div>
             <div class="right">
+                <center>
                 <!-- <ul class="list"> -->
                     <p>
                         <h1 class="states">States</h1>
@@ -335,17 +351,13 @@
                         <p>Wyoming, WY</p>
                     </a>
                 <!-- </ul> -->
+                </center>
             </div>
         </div>
 
 
 
-        <input type="text" id="yourState" placeholder="State 1"></input>
-        <input type="text" id="wantedState" placeholder="State 2"></input>
-        <input type="text" id="comparator" placeholder="what you want to compare"></input>
-        <input type="submit" id="submit" onclick="compare()">
-        <br>
-        <p id="text"></p>
+        
     </div>
     <script src="../../scripts/compare.js"></script>
 </body>
