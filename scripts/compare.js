@@ -316,7 +316,7 @@ function compare(){
         document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
     }else if(x == 'annual health insurance'){
         y = eval(o).healthInY;
-        z = w.healthInY;
+        z = eval(w).healthInY;
         document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
     }else if(x == 'average house cost'){
         y = eval(o).homeCost;
@@ -324,3 +324,4 @@ function compare(){
         document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
     }
 }
+
