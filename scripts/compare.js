@@ -1,278 +1,3 @@
-let alabama = {
-    taxRate: 9.24,
-    minWage: 7.25,
-    carInM: 113,
-    carInY: 1356,
-    homeInM:142,
-    homeInY: 1705,
-    healthInM: 567,
-    healthInY: 6804,
-    homeCost: 178649
-}
-let alaska = {
-    taxRate: 1.76,
-    minWage: 10.34,
-    carInM: 119,
-    carInY: 1433,
-    homeInM:109,
-    homeInY: 1307,
-    healthInM: 599,
-    healthInY: 7188,
-    homeCost: 385000
-}
-let arizona = {
-    taxRate: 8.40,
-    minWage: 12.80,
-    carInM: 145,
-    carInY: 1743,
-    homeInM:100,
-    homeInY: 1200,
-    healthInM: 503,
-    healthInY: 6036,
-    homeCost: 392000
-}
-let arkansas = {
-    taxRate: 9.47,
-    minWage: 11.00,
-    carInM: 99,
-    carInY: 1189,
-    homeInM:178.50,
-    homeInY: 2142,
-    healthInM: 456,
-    healthInY: 5472,
-    homeCost: 299900
-}
-let california = {
-    taxRate: 8.82,
-    minWage: 14.00,
-    carInM: 119,
-    carInY: 1429,
-    homeInM:122,
-    homeInY: 1460,
-    healthInM: 417,
-    healthInY: 5004,
-    homeCost: 769405
-}
-let colorado = {
-    taxRate: 7.77,
-    minWage: 12.56,
-    carInM: 204,
-    carInY: 2448,
-    homeInM:201,
-    homeInY: 2412,
-    healthInM: 383,
-    healthInY: 4596,
-    homeCost: 594500
-}
-let connecticut = {
-    taxRate: 6.35,
-    minWage: 14.00,
-    carInM: 154,
-    carInY: 1845,
-    homeInM:123,
-    homeInY: 1481,
-    healthInM: 534,
-    healthInY: 6408,
-    homeCost: 326124
-}
-let delaware = {
-    taxRate: 6.60,
-    minWage: 10.50,
-    carInM: 192,
-    carInY: 2302,
-    homeInM:70,
-    homeInY: 845,
-    healthInM: 555,
-    healthInY: 6660,
-    homeCost: 317985
-}
-let florida = {
-    taxRate: 7.01,
-    minWage: 11.00,
-    carInM: 230,
-    carInY: 2762,
-    homeInM:177,
-    homeInY: 2122,
-    healthInM: 467,
-    healthInY: 5604,
-    homeCost: 382000
-}
-let georgia = {
-    taxRate: 7.35,
-    minWage: 7.25,
-    carInM: 191,
-    carInY: 2292,
-    homeInM:114,
-    homeInY: 1373,
-    healthInM: 394,
-    healthInY: 4728,
-    homeCost: 256962
-}
-let hawaii = {
-    taxRate: 4.44,
-    minWage: 12.00,
-    carInM: 120,
-    carInY: 1440,
-    homeInM:98,
-    homeInY: 1174,
-    healthInM: 491,
-    healthInY: 5892,
-    homeCost: 825000
-}
-let idaho = {
-    taxRate: 6.02,
-    minWage: 7.25,
-    carInM: 87,
-    carInY: 1045,
-    homeInM:82,
-    homeInY: 982,
-    healthInM: 512,
-    healthInY: 6144,
-    homeCost: 446000
-}
-let pennsylvania = {
-    taxRate: 3.07,
-    minWage: 7.25,
-    carInM: 51,
-    carInY: 611,
-    homeInM:87,
-    homeInY: 1044,
-    healthInM: 441,
-    healthInY: 5292,
-    homeCost: 206575
-}
-let rhodeisland = {
-    taxRate:4.87,
-    minWage:12.25,
-    carInM:153,
-    carInY:1836,
-    homeInM:101.75,
-    homeInY:1221,
-    healthInM:286,
-    healthInY:3432,
-    homeCost:422000
-}
-let southcarolina = {
-    taxRate:6,
-    minWage:7.25,
-    carInM:86.25,
-    carInY:1035,
-    homeInM:97,
-    homeInY:1165,
-    healthInM:339,
-    healthInY:4068,
-    homeCost:370000
-}
-let southdakota = {
-    taxRate:4.5,
-    minWage:9.95,
-    carInM:127.91,
-    carInY:1535,
-    homeInM:177.17,
-    homeInY:2126,
-    healthInM:671,
-    healthInY:8052,
-    homeCost:239500
-}
-let tennessee = {
-    taxRate:7,
-    minWage:7.25,
-    carInM:71.25,
-    carInY:855,
-    homeInM:137,
-    homeInY:1644,
-    healthInM:508,
-    healthInY:6096,
-    homeCost:419000
-}
-let texas = {
-    taxRate:8.20,
-    minWage:7.25,
-    carInM:110,
-    carInY:1316,
-    homeInM:345,
-    homeInY:4142,
-    healthInM:424,
-    healthInY:5088,
-    homeCost:390600
-}
-let utah = {
-    taxRate:4.85,
-    minWage:7.25,
-    carInM:120,
-    carInY:1440,
-    homeInM:55.67,
-    homeInY:668,
-    healthInM:445,
-    healthInY:5340,
-    homeCost:500000
-}
-let vermont = {
-    taxRate:6.24,
-    minWage:12.55,
-    carInM:95.42,
-    carInY:1145,
-    homeInM:57.17,
-    homeInY:686,
-    healthInM:670.50,
-    healthInY:8046,
-    homeCost:295000
-}
-let virginia = {
-    taxRate:5.3,
-    minWage:11.00,
-    carInM:184,
-    carInY:2208,
-    homeInM:77,
-    homeInY:924,
-    healthInM:441,
-    healthInY:5292,
-    homeCost:401082
-}
-let washington = {
-    taxRate:9.29,
-    minWage:14.49,
-    carInM:68.29,
-    carInY:819.5,
-    homeInM:102.83,
-    homeInY:1234,
-    healthInM:443,
-    healthInY:5316,
-    homeCost:599626
-}
-let westvirginia = {
-    taxRate:6,
-    minWage:8.75,
-    carInM:81.54,
-    carInY:978.5,
-    homeInM:93.67,
-    homeInY:1124,
-    healthInM:723,
-    healthInY:8676,
-    homeCost:310000
-}
-let wisconsin = {
-    taxRate:5.5,
-    minWage:7.25,
-    carInM:80,
-    carInY:963,
-    homeInM:77.33,
-    homeInY:928,
-    healthInM:822,
-    healthInY:9864,
-    homeCost:250000
-}
-let wyoming = {
-    taxRate:4,
-    minWage:7.25,
-    carInM:128.42,
-    carInY:1541,
-    homeInM:67.08,
-    homeInY:805,
-    healthInM:618,
-    healthInY:7416,
-    homeCost:292509
-}
 let orign = document.getElementById('yourState');
 let want = document.getElementById('wantedState');
 let comp = document.getElementById('comparator');
@@ -280,348 +5,384 @@ let y;
 let z;
 let sign;
 
-function AL(){
-    orign.value = 'Alabama';
-}
-function AK(){
-    orign.value = 'Alaska';
-}
-function AZ(){
-    orign.value = 'Arizona';
-}
-function AR(){
-    orign.value = 'Arkansas';
-}
-function CA(){
-    orign.value = 'California';
-}
-function CO(){
-    orign.value = 'Colorado';
-}
-function CT(){
-    orign.value = 'Connecticut';
-}
-function DE(){
-    orign.value = 'Delaware';
-}
-function FL(){
-    orign.value = 'Florida';
-}
-function GA(){
-    orign.value = 'Georgia';
-}
-function HI(){
-    orign.value = 'Hawaii';
-}
-function ID(){
-    orign.value = 'Idaho';
-}
-function IL(){
-    orign.value = 'Illinois';
-}
-function IN(){
-    orign.value = 'Indiana';
-}
-function IA(){
-    orign.value = 'Iowa';
-}
-function KS(){
-    orign.value = 'Kansas';
-}
-function KY(){
-    orign.value = 'Kentuky';
-}
-function LA(){
-    orign.value = 'Louisiana';
-}
-function ME(){
-    orign.value = 'Maine';
-}
-function MD(){
-    orign.value = 'Maryland';
-}
-function MA(){
-    orign.value = 'Massachusetts';
-}
-function MI(){
-    orign.value = 'Michigan';
-}
-function MN(){
-    orign.value = 'Minnesota';
-}
-function MS(){
-    orign.value = 'Mississippi';
-}
-function MO(){
-    orign.value = 'Missouri';
-}
-function MT(){
-    orign.value = 'Montana';
-}
-function NE(){
-    orign.value = 'Nebraska';
-}
-function NV(){
-    orign.value = 'Nevada';
-}
-function NH(){
-    orign.value = 'New Hampshire';
-}
-function NJ(){
-    orign.value = 'New Jersey';
-}
-function NM(){
-    orign.value = 'New Mexico';
-}
-function NY(){
-    orign.value = 'New York';
-}
-function NC(){
-    orign.value = 'North Carolina';
-}
-function ND(){
-    orign.value = 'North Dakota';
-}
-function OH(){
-    orign.value = 'Ohio';
-}
-function OK(){
-    orign.value = 'Oklahoma';
-}
-function OR(){
-    orign.value = 'Oregon';
-}
-function PA(){
-    orign.value = 'Pennsylvania';
-}
-function RI(){
-    orign.value = 'Rhode Island';
-}
-function SC(){
-    orign.value = 'South Carolina';
-}
-function SD(){
-    orign.value = 'South Dakota';
-}
-function TN(){
-    orign.value = 'Tennessee';
-}
-function TX(){
-    orign.value = 'Texas';
-}
-function UT(){
-    orign.value = 'Utah';
-}
-function VT(){
-    orign.value = 'Vermont';
-}
-function VA(){
-    orign.value = 'Virginia';
-}
-function WA(){
-    orign.value = 'Virginia';
-}
-function WV(){
-    orign.value = 'West Virgina';
-}
-function WI(){
-    orign.value = 'Wisconsin';
-}
-function WY(){
-    orign.value = 'Wyoming';
-}
+let data = require('./data/statedata.json');
 
-function AL2(){
-    origin.value = 'Alabama';
-}
-function AK2(){
-    want.value = 'Alaska';
-}
-function AZ2(){
-    want.value = 'Arizona';
-}
-function AR2(){
-    want.value = 'Arkansas';
-}
-function CA2(){
-    want.value = 'California';
-}
-function CO2(){
-    want.value = 'Colorado';
-}
-function CT2(){
-    want.value = 'Connecticut';
-}
-function DE2(){
-    want.value = 'Delaware';
-}
-function FL2(){
-    want.value = 'Florida';
-}
-function GA2(){
-    want.value = 'Georgia';
-}
-function HI2(){
-    want.value = 'Hawaii';
-}
-function ID2(){
-    want.value = 'Idaho';
-}
-function IL2(){
-    want.value = 'Illinois';
-}
-function IN2(){
-    want.value = 'Indiana';
-}
-function IA2(){
-    want.value = 'Iowa';
-}
-function KS2(){
-    want.value = 'Kansas';
-}
-function KY2(){
-    want.value = 'Kentuky';
-}
-function LA2(){
-    want.value = 'Louisiana';
-}
-function ME2(){
-    want.value = 'Maine';
-}
-function MD2(){
-    want.value = 'Maryland';
-}
-function MA2(){
-    want.value = 'Massachusetts';
-}
-function MI2(){
-    want.value = 'Michigan';
-}
-function MN2(){
-    want.value = 'Minnesota';
-}
-function MS2(){
-    want.value = 'Mississippi';
-}
-function MO2(){
-    want.value = 'Missouri';
-}
-function MT2(){
-    want.value = 'Montana';
-}
-function NE2(){
-    want.value = 'Nebraska';
-}
-function NV2(){
-    want.value = 'Nevada';
-}
-function NH2(){
-    want.value = 'New Hampshire';
-}
-function NJ2(){
-    want.value = 'New Jersey';
-}
-function NM2(){
-    want.value = 'New Mexico';
-}
-function NY2(){
-    want.value = 'New York';
-}
-function NC2(){
-    want.value = 'North Carolina';
-}
-function ND2(){
-    want.value = 'North Dakota';
-}
-function OH2(){
-    want.value = 'Ohio';
-}
-function OK2(){
-    want.value = 'Oklahoma';
-}
-function OR2(){
-    want.value = 'Oregon';
-}
-function PA2(){
-    want.value = 'Pennsylvania';
-}
-function RI2(){
-    want.value = 'Rhode Island';
-}
-function SC2(){
-    want.value = 'South Carolina';
-}
-function SD2(){
-    want.value = 'South Dakota';
-}
-function TN2(){
-    want.value = 'Tennessee';
-}
-function TX2(){
-    want.value = 'Texas';
-}
-function UT2(){
-    want.value = 'Utah';
-}
-function VT2(){
-    want.value = 'Vermont';
-}
-function VA2(){
-    want.value = 'Virginia';
-}
-function WA2(){
-    want.value = 'Virginia';
-}
-function WV2(){
-    want.value = 'West Virgina';
-}
-function WI2(){
-    want.value = 'Wisconsin';
-}
-function WY2(){
-    want.value = 'Wyoming';
-}
+let alabama = data[0];
+let alaska = data[1];
+let arizona = data[2];
+let arkansas = data[3];
+let california = data[4];
+let colorado = data[5];
+let connecticut = data[6];
+let delaware = data[7];
+let florida = data[8];
+let georgia = data[9];
+let hawaii = data[10];
+let idaho = data[11];
+let illinois = data[12];
+let india = data[13];
+let iowa = data[14];
+let kansas = data[15];
+let kentuky = data[16];
+let louisiana = data[17];
+let maine = data[18];
+let maryland = data[19];
+let massachusetts = data[20];
+let michigan = data[21];
+let minnesota = data[22];
+let mississippi = data[23];
+let missouri = data[24];
+let montana = data[25];
+let nebraska = data[26];
+let nevada = data[27];
+let newhampshire = data[28];
+let newjersey = data[29];
+let newmexico = data[30];
+let newyork = data[31];
+let northcarolina = data[32];
+let northdakota = data[33];
+let ohio = data[34];
+let oklahoma = data[35];
+let oregon = data[36];
+let pennsylvania = data[37];
+let rhodeisland = data[38];
+let southcarolina = data[39];
+let southdakota = data[40];
+let tennessee = data[41];
+let texas =  data[42];
+let utah = data[43];
+let vermont = data[44];
+let virginia = data[45];
+let washington = data[46];
+let westvirginia = data[47];
+let wisconsin = data[48];
+let wyoming = data[49];
 
 function compare(){
     let o = orign.value.toLowerCase();
     let w = want.value.toLowerCase();
     let x = comp.value.toLowerCase();
-    if(x == 'tax rate'){
-        sign = '%'
-        y = eval(o).taxRate;
-        z = eval(w).taxRate;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are ${y}%. ${w}'s ${x} are ${z}%`;
-    }else if(x == 'minimum wage'){
-        y = eval(o).minWage;
-        z = eval(w).minWage;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y} per hour. ${w}'s ${x} are $${z} per hour`;
-    }else if(x == 'monthly car insurance'){
-        y = eval(o).carInM;
-        z = eval(w).carInM;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
-    }else if(x == 'annual car insurance'){
-        y = eval(o).carInY;
-        z = eval(w).carInY;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
-    }else if(x == 'monthly house insurance'){
-        y = eval(o).homeInM;
-        z = eval(w).homeInM;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
-    }else if(x == 'annual house insurance'){
-        y = eval(o).homeInY;
-        z = eval(w).homeInY;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
-    }else if(x == 'monthly health insurance'){
-        y = eval(o).healthInM;
-        z = eval(w).healthInM;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
-    }else if(x == 'annual health insurance'){
-        y = eval(o).healthInY;
-        z = eval(w).healthInY;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
-    }else if(x == 'average house cost'){
-        y = eval(o).homeCost;
-        z = eval(w).homeCost;
-        document.getElementById('text').innerHTML = `${o}'s ${x} are $${y}. ${w}'s ${x} are $${z}`;
+    if(x == "population"){
+        console.log(alabama.population);
+    }else if(x == "amount unemployed"){
+
+    }else if(x == "amount of food stamp recipents"){
+
+    }else if(x == "gdp"){
+
+    }else if(x == "debtS"){
+
+    }else if(x == "debt to gpd"){
+
+    }else if(x == "state revenue"){
+
+    }else if(x == "average state spending"){
+
+    }else if(x == "average debt per citizen"){
+
     }
+    document.getElementById('text').innerHTML = `${o}'s ${x} is ${y} and ${w}'s ${x} is ${z}`;
 }
+
+// function AL(){
+//     orign.value = 'Alabama';
+// }
+// function AK(){
+//     orign.value = 'Alaska';
+// }
+// function AZ(){
+//     orign.value = 'Arizona';
+// }
+// function AR(){
+//     orign.value = 'Arkansas';
+// }
+// function CA(){
+//     orign.value = 'California';
+// }
+// function CO(){
+//     orign.value = 'Colorado';
+// }
+// function CT(){
+//     orign.value = 'Connecticut';
+// }
+// function DE(){
+//     orign.value = 'Delaware';
+// }
+// function FL(){
+//     orign.value = 'Florida';
+// }
+// function GA(){
+//     orign.value = 'Georgia';
+// }
+// function HI(){
+//     orign.value = 'Hawaii';
+// }
+// function ID(){
+//     orign.value = 'Idaho';
+// }
+// function IL(){
+//     orign.value = 'Illinois';
+// }
+// function IN(){
+//     orign.value = 'Indiana';
+// }
+// function IA(){
+//     orign.value = 'Iowa';
+// }
+// function KS(){
+//     orign.value = 'Kansas';
+// }
+// function KY(){
+//     orign.value = 'Kentuky';
+// }
+// function LA(){
+//     orign.value = 'Louisiana';
+// }
+// function ME(){
+//     orign.value = 'Maine';
+// }
+// function MD(){
+//     orign.value = 'Maryland';
+// }
+// function MA(){
+//     orign.value = 'Massachusetts';
+// }
+// function MI(){
+//     orign.value = 'Michigan';
+// }
+// function MN(){
+//     orign.value = 'Minnesota';
+// }
+// function MS(){
+//     orign.value = 'Mississippi';
+// }
+// function MO(){
+//     orign.value = 'Missouri';
+// }
+// function MT(){
+//     orign.value = 'Montana';
+// }
+// function NE(){
+//     orign.value = 'Nebraska';
+// }
+// function NV(){
+//     orign.value = 'Nevada';
+// }
+// function NH(){
+//     orign.value = 'New Hampshire';
+// }
+// function NJ(){
+//     orign.value = 'New Jersey';
+// }
+// function NM(){
+//     orign.value = 'New Mexico';
+// }
+// function NY(){
+//     orign.value = 'New York';
+// }
+// function NC(){
+//     orign.value = 'North Carolina';
+// }
+// function ND(){
+//     orign.value = 'North Dakota';
+// }
+// function OH(){
+//     orign.value = 'Ohio';
+// }
+// function OK(){
+//     orign.value = 'Oklahoma';
+// }
+// function OR(){
+//     orign.value = 'Oregon';
+// }
+// function PA(){
+//     orign.value = 'Pennsylvania';
+// }
+// function RI(){
+//     orign.value = 'Rhode Island';
+// }
+// function SC(){
+//     orign.value = 'South Carolina';
+// }
+// function SD(){
+//     orign.value = 'South Dakota';
+// }
+// function TN(){
+//     orign.value = 'Tennessee';
+// }
+// function TX(){
+//     orign.value = 'Texas';
+// }
+// function UT(){
+//     orign.value = 'Utah';
+// }
+// function VT(){
+//     orign.value = 'Vermont';
+// }
+// function VA(){
+//     orign.value = 'Virginia';
+// }
+// function WA(){
+//     orign.value = 'Virginia';
+// }
+// function WV(){
+//     orign.value = 'West Virgina';
+// }
+// function WI(){
+//     orign.value = 'Wisconsin';
+// }
+// function WY(){
+//     orign.value = 'Wyoming';
+// }
+
+// function AL2(){
+//     origin.value = 'Alabama';
+// }
+// function AK2(){
+//     want.value = 'Alaska';
+// }
+// function AZ2(){
+//     want.value = 'Arizona';
+// }
+// function AR2(){
+//     want.value = 'Arkansas';
+// }
+// function CA2(){
+//     want.value = 'California';
+// }
+// function CO2(){
+//     want.value = 'Colorado';
+// }
+// function CT2(){
+//     want.value = 'Connecticut';
+// }
+// function DE2(){
+//     want.value = 'Delaware';
+// }
+// function FL2(){
+//     want.value = 'Florida';
+// }
+// function GA2(){
+//     want.value = 'Georgia';
+// }
+// function HI2(){
+//     want.value = 'Hawaii';
+// }
+// function ID2(){
+//     want.value = 'Idaho';
+// }
+// function IL2(){
+//     want.value = 'Illinois';
+// }
+// function IN2(){
+//     want.value = 'Indiana';
+// }
+// function IA2(){
+//     want.value = 'Iowa';
+// }
+// function KS2(){
+//     want.value = 'Kansas';
+// }
+// function KY2(){
+//     want.value = 'Kentuky';
+// }
+// function LA2(){
+//     want.value = 'Louisiana';
+// }
+// function ME2(){
+//     want.value = 'Maine';
+// }
+// function MD2(){
+//     want.value = 'Maryland';
+// }
+// function MA2(){
+//     want.value = 'Massachusetts';
+// }
+// function MI2(){
+//     want.value = 'Michigan';
+// }
+// function MN2(){
+//     want.value = 'Minnesota';
+// }
+// function MS2(){
+//     want.value = 'Mississippi';
+// }
+// function MO2(){
+//     want.value = 'Missouri';
+// }
+// function MT2(){
+//     want.value = 'Montana';
+// }
+// function NE2(){
+//     want.value = 'Nebraska';
+// }
+// function NV2(){
+//     want.value = 'Nevada';
+// }
+// function NH2(){
+//     want.value = 'New Hampshire';
+// }
+// function NJ2(){
+//     want.value = 'New Jersey';
+// }
+// function NM2(){
+//     want.value = 'New Mexico';
+// }
+// function NY2(){
+//     want.value = 'New York';
+// }
+// function NC2(){
+//     want.value = 'North Carolina';
+// }
+// function ND2(){
+//     want.value = 'North Dakota';
+// }
+// function OH2(){
+//     want.value = 'Ohio';
+// }
+// function OK2(){
+//     want.value = 'Oklahoma';
+// }
+// function OR2(){
+//     want.value = 'Oregon';
+// }
+// function PA2(){
+//     want.value = 'Pennsylvania';
+// }
+// function RI2(){
+//     want.value = 'Rhode Island';
+// }
+// function SC2(){
+//     want.value = 'South Carolina';
+// }
+// function SD2(){
+//     want.value = 'South Dakota';
+// }
+// function TN2(){
+//     want.value = 'Tennessee';
+// }
+// function TX2(){
+//     want.value = 'Texas';
+// }
+// function UT2(){
+//     want.value = 'Utah';
+// }
+// function VT2(){
+//     want.value = 'Vermont';
+// }
+// function VA2(){
+//     want.value = 'Virginia';
+// }
+// function WA2(){
+//     want.value = 'Virginia';
+// }
+// function WV2(){
+//     want.value = 'West Virgina';
+// }
+// function WI2(){
+//     want.value = 'Wisconsin';
+// }
+// function WY2(){
+//     want.value = 'Wyoming';
+// }
+
