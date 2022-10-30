@@ -63,23 +63,32 @@ function compare(){
     let w = want.value.toLowerCase();
     let x = comp.value.toLowerCase();
     if(x == "population"){
-        console.log(alabama.population);
+        y = data[0].x;
+        z = w.x;
     }else if(x == "amount unemployed"){
-
+        y = o.x;
+        z = w.x;
     }else if(x == "amount of food stamp recipents"){
-
+        y = o.x;
+        z = w.x;
     }else if(x == "gdp"){
-
+        y = o.x;
+        z = w.x;
     }else if(x == "debtS"){
-
+        y = o.x;
+        z = w.x;
     }else if(x == "debt to gpd"){
-
+        y = o.x;
+        z = w.x;
     }else if(x == "state revenue"){
-
+        y = o.x;
+        z = w.x;
     }else if(x == "average state spending"){
-
+        y = o.x;
+        z = w.x;
     }else if(x == "average debt per citizen"){
-
+        y = o.x;
+        z = w.x;
     }
     document.getElementById('text').innerHTML = `${o}'s ${x} is ${y} and ${w}'s ${x} is ${z}`;
 }
