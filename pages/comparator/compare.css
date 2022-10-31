@@ -95,9 +95,9 @@ p{
     justify-content: center;
     /* border: 1px solid black; */
 }
-.comp{
+/* .comp{
     align-self: flex-start;
-}
+} */
 
 @font-face {
     font-family: jost-regular;
@@ -148,4 +148,7 @@ p{
 @font-face {
     font-family: rubik-semiBold;
     src: url(../../Fonts/rubik/static/Rubik-SemiBold.ttf);
+}
+a:hover{
+    color:blue;
 }
