@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="compare.css">
+    <link rel="stylesheet" href="compare.css"> 
 </head>
 <body>
     <header>
@@ -400,6 +400,12 @@
         <br>
         <br>
     </footer>
-    <script src="../../scripts/compare.js"></script>
+    <script>
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST","file:///C:/Users/amurp/OneDrive/Documents/GitHub/Company-Admin-Panel/pages/comparator/compare.html");
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.send();
+    </script>
+    <script type="module" src="../../scripts/compare.js"></script>
 </body>
 </html>
