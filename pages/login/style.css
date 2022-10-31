@@ -15,6 +15,24 @@ header {
     color: white;
     
 }
+footer{
+    background-color:rgb(0, 0, 120);
+    padding-top: 20px;
+}
+.footerTitle{
+    color: white;
+    text-align: center;
+    font-family: rubik-bold;
+}
+.contactUsContainer{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    font-family: rubik-light;
+    margin-top: 8px;
+}
 .title {
     text-align: center;
     font-family: jost-regular;
@@ -61,7 +79,10 @@ header {
     border-left-color: #23abff;
 }
 .goalsParagraph{
-    border-left-color:rgb(255, 111, 0);
+    border-left-color:#23abff;
+}
+.howToParagraph{
+    border-left-color: rgb(255, 111, 0);
 }
 .orangeText{
     color: rgb(255, 111, 0);

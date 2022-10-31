@@ -1,3 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+header {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 0, 120);
+    color: white;
+}
+footer {
+    background-color: rgb(0, 0, 120);
+    padding-top: 20px;
+}
+.title {
+    text-align: center;
+    font-family: jost-regular;
+    font-size: 50px;
+}
+
+.subTitle {
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.headerLinksContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 23px;
+    margin-top: -5px;
+    text-decoration: none;
+    background-color: #23abff;
+    color: white;
+}
+.footerTitle {
+    color: white;
+    text-align: center;
+    font-family: rubik-bold;
+}
+.contactUsContainer {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    font-family: rubik-light;
+    margin-top: 8px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 23);
+    font-family: jost-semiBold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#underlineLink {
+    text-decoration: underline;
+}
 .states{
     text-decoration: underline;
 }
@@ -28,4 +97,55 @@ p{
 }
 .comp{
     align-self: flex-start;
+}
+
+@font-face {
+    font-family: jost-regular;
+    src: url(../../Fonts/Jost/static/Jost-Regular.ttf);
+}
+
+@font-face {
+    font-family: jost-medium;
+    src: url(../../Fonts/Jost/static/Jost-Medium.ttf);
+}
+
+@font-face {
+    font-family: jost-thin;
+    src: url(../../Fonts/Jost/static/Jost-Thin.ttf);
+}
+
+@font-face {
+    font-family: jost-semiBold;
+    src: url(../../Fonts/Jost/static/Jost-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: jost-bold;
+    src: url(../../Fonts/Jost/static/Jost-Bold.ttf);
+}
+
+@font-face {
+    font-family: jost-light;
+    src: url(../../Fonts/Jost/static/Jost-Light.ttf);
+}
+
+/* Rubik Fonts */
+@font-face {
+    font-family: rubik-regular;
+    src: url(../../Fonts/rubik/static/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: rubik-light;
+    src: url(../../Fonts/rubik/static/Rubik-Light.ttf);
+}
+
+@font-face {
+    font-family: rubik-bold;
+    src: url(../../Fonts/rubik/static/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: rubik-semiBold;
+    src: url(../../Fonts/rubik/static/Rubik-SemiBold.ttf);
 }
