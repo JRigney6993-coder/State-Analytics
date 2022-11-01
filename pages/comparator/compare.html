@@ -17,7 +17,7 @@
         </div>
     </header>
     <div class="headerLinksContainer">
-        <a href="../login/index.html" class="homeLink">
+        <a href="../homePage/index.html" class="homeLink">
             Home
         </a>
         <a href="../comparator/compare.html" class="searchLink" id="underlineLink">
@@ -27,7 +27,7 @@
     <div id="main">
         <div class="flexbox">
             <div class="left">
-                <center>
+                
                 <!-- <ul class="list"> -->
                     <p>
                         <h1 class="states">States</h1>
@@ -161,35 +161,35 @@
                         <p>Wyoming, WY</p>
                     </a>
                 <!-- </ul> -->
-            </center>
+                    <br>
             </div>
             <div class="flexmid">
                 <div class="comp">
-                    <center>
-                        <h1>Comparators</h1>
-                        <p>population</p>
-                        <p>amount unemployed</p>
-                        <p>amount of food stamp recipents</p>
-                        <p>gdp</p>
-                        <p>debt</p>
-                        <p>debt to gpd</p>
-                        <p>state revenue</p>
-                        <p>average state spending</p>
-                        <p>average debt per citizen</p>
-                        <br><br><br><br><br><br>
-                    </center>
+                    <h1>Comparators</h1>
+                    <p>Population</p>
+                    <p>Amount Unemployed</p>
+                    <p>Amount of Food Stamp Recipents</p>
+                    <p>gdp</p>
+                    <p>Debt</p>
+                    <p>Debt to gpd</p>
+                    <p>State Revenue</p>
+                    <p>Average State Spending</p>
+                    <p>Average debt per Citizen</p>
+                    <br><br><br><br><br><br>
                 </div>
                 <div>
                     <input type="text" id="yourState" placeholder="State 1"></input>
                     <input type="text" id="wantedState" placeholder="State 2"></input>
-                    <input type="text" id="comparator" placeholder="what you want to compare"></input>
+                    <br>
+                    <input type="text" id="comparator" placeholder="What you would like to compare"></input>
+                    <br>
                     <input type="submit" id="submit" onclick="compare()">
                     <br>
                     <p id="text"></p>
                 </div>
             </div>
             <div class="right">
-                <center>
+                
                 <!-- <ul class="list"> -->
                     <p>
                         <h1 class="states">States</h1>
@@ -367,7 +367,7 @@
                         <p>Wyoming, WY</p>
                     </a>
                 <!-- </ul> -->
-                </center>
+                <br>
             </div>
         </div>
 
@@ -413,12 +413,7 @@
         </div>
         <br>
     </footer>
-    <script>
-        const xhr = new XMLHttpRequest();
-        xhr.open("POST","file:///C:/Users/amurp/OneDrive/Documents/GitHub/Company-Admin-Panel/pages/comparator/compare.html");
-        xhr.setRequestHeader("Content-Type", "application/json");
-        xhr.send();
-    </script>
-    <script type="module" src="../../scripts/compare.js"></script>
+
+    <script src="../../scripts/compare.js"></script>
 </body>
 </html>

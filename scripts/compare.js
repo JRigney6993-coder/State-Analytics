@@ -6,8 +6,6 @@ let z;
 let sign;
 
 
-import data from './data/statedata.json';
-
 
 let alaska = data[1];
 let arizona = data[2];
@@ -64,7 +62,6 @@ function compare(){
     let w = want.value.toLowerCase();
     let x = comp.value.toLowerCase();
     if(x == "population"){
-        let alabama = ('./data/statedata.json')[0];
         y = o.x;
         z = w.x;
     }else if(x == "amount unemployed"){

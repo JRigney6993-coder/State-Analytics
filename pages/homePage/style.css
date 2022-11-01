@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: whitesmoke;
+    background-color: white;
     
 }
 header {
@@ -103,56 +103,7 @@ a:hover{
 #underlineLink{
     text-decoration: underline;
 }
-/* input {
-    height: 40px;
-    width: 400px;
-    font-size: 20px;
-}
-input[type=email], input[type=password]{
-    padding-left: 35px;
-    padding-right: 10px;
-    transition: 0.25s;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-}
-input[type=email]:focus,
-input[type=password]:focus {
-    padding-left: 35px;
-    padding-right: 10px;
-    border-bottom-width: 4px;
-    border-bottom-color:rgb(0, 0, 158);
-    border-bottom-style: solid;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    outline: none;
-} */
-/*
-.emailInputContainer{
-    align-self: center;
-}
-.passwordInputContainer{
-    align-self: center;
-    text-align: center;
-}
-.passwordInputLabelContainer{
-    width: 450px;
-}
-#CE{
-    background-color: white;
-    background-image: url("../../images/emailInput.png");
-    background-position: 0px 7.5px;
-    background-repeat: no-repeat;
-    background-size: auto 25px;
-}
-#CP{
-    background-color: white;
-    background-image: url('../../images/passwordInput.png');
-    background-position: 4px 7.5px;
-    background-repeat: no-repeat;
-    background-size: auto 25px;
-}
+/* 
 .submitButton{
     background-color: rgb(0, 0, 158);
     color: white;
