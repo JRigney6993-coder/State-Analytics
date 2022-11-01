@@ -767,35 +767,35 @@ o = o.split(" ").join('');
 let w = want.value.toLowerCase();
 w = w.split(" ").join("");
 let x = comp.value.toLowerCase();
-if(x == "population"){
-y = eval(o).population;
-z = eval(w).population;
-}else if(x == "amount unemployed"){
-y = eval(o).unemployed;
-z = eval(w).unemployed;
-}else if(x == "amount of food stamp recipents"){
-y = eval(o).foodStampRecipient;
-z = eval(w).foodStampRecipient;
-}else if(x == "gdp"){
-y = eval(o).gdp;
-z = eval(w).gdp;
-}else if(x == "debt"){
-y = eval(o).debt;
-z = eval(w).debt;
-}else if(x == "debt to gpd"){
-y = eval(o).debtToGdpRatio;
-z = eval(w).debtToGdpRatio;
-}else if(x == "state revenue"){
-y = eval(o).inStateRevenue;
-z = eval(w).inStateRevenue;
-}else if(x == "average state spending"){
-y = eval(o).spending;
-z = eval(w).spending;
-}else if(x == "average debt per citizen"){
-y = eval(o).debtPerCitizen;
-z = eval(w).debtPerCitizen;
-}
-document.getElementById('text').innerHTML = `${o}'s ${x} is ${y} and ${w}'s ${x} is ${z}`;
+    if(x == "population"){
+        y = eval(o).population;
+        z = eval(w).population;
+    }else if(x == "amount unemployed"){
+        y = eval(o).unemployed;
+        z = eval(w).unemployed;
+    }else if(x == "amount of food stamp recipents"){
+        y = eval(o).foodStampRecipient;
+        z = eval(w).foodStampRecipient;
+    }else if(x == "gdp"){
+        y = eval(o).gdp;
+        z = eval(w).gdp;
+    }else if(x == "debt"){
+        y = eval(o).debt;
+        z = eval(w).debt;
+    }else if(x == "debt to gpd"){
+        y = eval(o).debtToGdpRatio;
+        z = eval(w).debtToGdpRatio;
+    }else if(x == "state revenue"){
+        y = eval(o).inStateRevenue;
+        z = eval(w).inStateRevenue;
+    }else if(x == "average state spending"){
+        y = eval(o).spending;
+        z = eval(w).spending;
+    }else if(x == "average debt per citizen"){
+        y = eval(o).debtPerCitizen;
+        z = eval(w).debtPerCitizen;
+    }
+    document.getElementById('text').innerHTML = `${o}'s ${x} is ${y} and ${w}'s ${x} is ${z}`;
 }
 
 // creates functions for <a> elements that auto complete the text input's field when clicked
