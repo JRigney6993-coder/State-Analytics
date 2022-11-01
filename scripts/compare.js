@@ -707,10 +707,6 @@ let comp = document.getElementById('comparator');
 let y;
 let z;
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 
 let alabama = data[0];
 let alaska = data[1];
@@ -770,13 +766,8 @@ let w = want.value.toLowerCase();
 w = w.split(" ").join("");
 let x = comp.value.toLowerCase();
     if(x == "population"){
-<<<<<<< Updated upstream
-        y = o.x;
-        z = w.x;
-=======
         y = eval(o).population;
         z = eval(w).population;
->>>>>>> Stashed changes
     }else if(x == "amount unemployed"){
         y = eval(o).unemployed;
         z = eval(w).unemployed;
