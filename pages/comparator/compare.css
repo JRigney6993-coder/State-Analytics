@@ -1,3 +1,4 @@
+/* General Non-Specific CSS */
 * {
     margin: 0px;
     padding: 0px;
@@ -17,15 +18,22 @@ footer {
     background-color: rgb(0, 0, 120);
     padding-top: 20px;
 }
+p{
+    font-size:20px;
+}
+
+/* Header / Title CSS */
 .title {
     text-align: center;
     font-family: jost-regular;
     font-size: 50px;
 }
+/* CSS for the abbreviation under the main title (State Pricing Analytics) */
 .subTitle {
     font-size: 25px;
     margin-top: -10px;
 }
+/* CSS for the links below the main and sub title */
 .headerLinksContainer {
     display: flex;
     justify-content: center;
@@ -36,11 +44,14 @@ footer {
     background-color: #23abff;
     color: white;
 }
+
+/* Footer Title CSS */
 .footerTitle {
     color: white;
     text-align: center;
     font-family: rubik-bold;
 }
+/* The container for the contact us section of the footer */
 .contactUsContainer {
     color: white;
     text-align: center;
@@ -50,49 +61,61 @@ footer {
     font-family: rubik-light;
     margin-top: 8px;
 }
+
+/* Specific Link Code */
 a {
     text-decoration: none;
     color: rgb(0, 0, 23);
     font-family: jost-semiBold;
 }
+/* Code for the link when it is hovered over */
 a:hover {
     text-decoration: underline;
 }
+/* Makes it so when you hover over the link on the right it will turn orange instead of blue */
 .right a:hover{
     color: rgb(255, 128, 0);
 }
+/* Makes it when you hover over a link it will turn blue */
+a:hover{
+    color:blue;
+}
+/* Makes it so when you are on the specific page it will underline that link in the header links */
 #underlineLink {
     text-decoration: underline;
 }
+
+/* States Title Over the left area and over the right area */
 .states{
     text-decoration: underline;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: rubik-bold;
 }
-.list{
-    list-style: none;
-}
+
+/* The entire flexbox for the main content in the page (excludes footer and) */
 .flexbox{
     display:flex;
     justify-content: space-between;
     text-align: center;
 }
+
+/* The code for the left section of the page for the list of the states */
 .left{
     padding-left: 2%;
     padding-right: 2%;
     background-color: #9bdfff
     /* border: 1px solid black; */
 }
+/* The code for the right section of the page for the list of the states */
 .right {
     padding-left: 2%;
     padding-right: 2%;
     background-color: rgb(255, 216, 139)
     /* border: 1px solid black; */
 }
-p{
-    font-size:20px;
-}
+
+/* CSS for the middle area, where the list of comparators are and the states/submit input is*/
 .flexmid{
     margin-top: 50px;
     display: flex;
@@ -106,12 +129,13 @@ p{
 .flexmid p{
     font-family: rubik-regular;
 }
+
+/* CSS for the inputs, which is the two state inputs, the comparator input, and the submit button */
 input {
     height: 40px;
     width: 400px;
     font-size: 20px;
 }
-
 input[type=text]{
     padding-left: 5px;
     transition: 0.25s;
@@ -120,7 +144,7 @@ input[type=text]{
     border-left-style: hidden;
     margin-bottom: 20px;
 }
-
+/* Css for when the text inputs are clicked on */
 input[type=text]:focus{
     padding-left: 5px;
     border-bottom-width: 4px;
@@ -131,9 +155,12 @@ input[type=text]:focus{
     border-left-style: hidden;
     outline: none;
 }
+/* Makes the wanted state input color orange */
 #wantedState:focus{
     border-bottom-color:rgb(255, 128, 0)
 }
+
+/* Code for the submit button */
 #submit {
     background-color: rgb(0, 0, 175);
     color: white;
@@ -147,40 +174,37 @@ input[type=text]:focus{
     box-shadow: 0 6px #999;
     margin-bottom: 10px;
 }
-
+/* Code for the submit button when the mouse curser is being hovered over */
 #submit:hover {
     background-color: rgb(49 49 210);
 }
-
+/* Code for when the submit button is clicked */
 #submit:active {
     transform: translateY(4px);
     box-shadow: 0 1px #666;
 }
+
+/* Jost Fonts */
 @font-face {
     font-family: jost-regular;
     src: url(../../Fonts/Jost/static/Jost-Regular.ttf);
 }
-
 @font-face {
     font-family: jost-medium;
     src: url(../../Fonts/Jost/static/Jost-Medium.ttf);
 }
-
 @font-face {
     font-family: jost-thin;
     src: url(../../Fonts/Jost/static/Jost-Thin.ttf);
 }
-
 @font-face {
     font-family: jost-semiBold;
     src: url(../../Fonts/Jost/static/Jost-SemiBold.ttf);
 }
-
 @font-face {
     font-family: jost-bold;
     src: url(../../Fonts/Jost/static/Jost-Bold.ttf);
 }
-
 @font-face {
     font-family: jost-light;
     src: url(../../Fonts/Jost/static/Jost-Light.ttf);
@@ -191,21 +215,16 @@ input[type=text]:focus{
     font-family: rubik-regular;
     src: url(../../Fonts/rubik/static/Rubik-Regular.ttf);
 }
-
 @font-face {
     font-family: rubik-light;
     src: url(../../Fonts/rubik/static/Rubik-Light.ttf);
 }
-
 @font-face {
     font-family: rubik-bold;
     src: url(../../Fonts/rubik/static/Rubik-Bold.ttf);
 }
-
 @font-face {
     font-family: rubik-semiBold;
     src: url(../../Fonts/rubik/static/Rubik-SemiBold.ttf);
 }
-a:hover{
-    color:blue;
-}
+

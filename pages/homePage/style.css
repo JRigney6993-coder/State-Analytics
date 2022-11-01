@@ -1,11 +1,10 @@
+/* General CSS */
 * {
     margin: 0px;
     padding: 0px;
-    
 }
 body{
     background-color: white;
-    
 }
 header {
     width: 100%;
@@ -19,11 +18,14 @@ footer{
     background-color:rgb(0, 0, 120);
     padding-top: 20px;
 }
+
+/* CSS for the footer title */
 .footerTitle{
     color: white;
     text-align: center;
     font-family: rubik-bold;
 }
+/* CSS for the contact container inside of the footer */
 .contactUsContainer{
     color: white;
     text-align: center;
@@ -33,15 +35,19 @@ footer{
     font-family: rubik-light;
     margin-top: 8px;
 }
+
+/* Code for the title inside of the header */
 .title {
     text-align: center;
     font-family: jost-regular;
     font-size: 50px;
 }
+/* Code for the title under the main title (State Pricing Analytics) */
 .subTitle{
     font-size: 25px;
     margin-top: -10px;
 }
+/* Container CSS for the links under the header */
 .headerLinksContainer{
     display: flex;
     justify-content: center;
@@ -52,6 +58,8 @@ footer{
     background-color: #23abff;
     color: white;
 }
+
+/* CSS for the main content container */
 .mainContentContainer{
     margin-top: 30px;
     margin-left: 25%;
@@ -60,69 +68,63 @@ footer{
     flex-wrap: wrap;
     gap: 30px;
 }
+/* css for the H1s inside of the main content container */
 .mainContentContainer h1{
     text-align: center;
     font-family: rubik-bold;
     font-size: 35px;
-    
 }
+/* css for p tags inside of the main content container*/
 .mainContentContainer p{
     font-size: 25px;
     font-family: rubik-light;
-    
     border-width: 0px;
     border-left-width: 5px;
     border-style: solid;
     padding-left: 15px;
 }
+
+/* css for the introduction paragraph */
 .introductionParagraph{
     border-left-color: #23abff;
 }
+/* css for the goals paragraph */
 .goalsParagraph{
     border-left-color:#23abff;
 }
+/* css for the how to paragraph */
 .howToParagraph{
     border-left-color: rgb(255, 111, 0);
 }
+
+/* makes the text used inside of the class orange and bold */
 .orangeText{
     color: rgb(255, 111, 0);
     font-weight: bold;
 }
+/* makes the text used inside of the class blue and bold */
 .blueText{
     color: rgb(0, 119, 255);
     font-weight: bold;
 }
+
+/* css for the links at the top */
 a{
     text-decoration: none;
     color: rgb(0, 0, 23);
     font-family: jost-semiBold;
 }
+/* css for when you hover over a link it will underline and turn blue*/
 a:hover{
     text-decoration: underline;
+    color: blue;
 }
+/* css which makes it so whatever page you are on it will underline the link at the header */
 #underlineLink{
     text-decoration: underline;
 }
-/* 
-.submitButton{
-    background-color: rgb(0, 0, 158);
-    color: white;
-    border-radius: 15px;
-    border-width: 5px;
-    border-color: transparent;
-    width: 350px;
-    height: 40px;
-    font-size: 20px;
-    font-family: jost-medium;
-    box-shadow: 0 6px #999;
-}
-.submitButton:hover{
-    background-color: rgb(49 49 210);
-}
-.submitButton:active{
-    transform: translateY(4px);
-    box-shadow: 0 1px #666;
-} */
+
+/* Fonts */
 /* Jost Fonts */
 @font-face {
     font-family: jost-regular;
@@ -148,6 +150,7 @@ a:hover{
     font-family: jost-light;
     src: url(../../Fonts/Jost/static/Jost-Light.ttf);
 }
+
 /* Rubik Fonts */
 @font-face {
     font-family: rubik-regular;

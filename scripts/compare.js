@@ -777,7 +777,7 @@ let x = comp.value.toLowerCase();
     }else if(x == "gdp"){
         y = eval(o).gdp;
         z = eval(w).gdp;
-    }else if(x == "debtS"){
+    }else if(x == "debt"){
         y = eval(o).debt;
         z = eval(w).debt;
     }else if(x == "debt to gpd"){
