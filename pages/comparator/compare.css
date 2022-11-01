@@ -125,9 +125,11 @@ a:hover{
 }
 .flexmid h1{
     font-family: Jost-Bold;
+    font-size: clamp(1rem, 5.5vw, 6rem);
 }
 .flexmid p{
     font-family: rubik-regular;
+    font-size: clamp(.5rem, 3.5vw, 2rem);
 }
 
 /* CSS for the inputs, which is the two state inputs, the comparator input, and the submit button */

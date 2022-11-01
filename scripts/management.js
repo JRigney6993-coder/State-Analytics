@@ -17,6 +17,3 @@ function filterFunction() {
         }
     }
 }
-
-//object info
-//tax, minimumWage, carInsur, homeInsur, healthInsur, homeCost
